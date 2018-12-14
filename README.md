@@ -1,4 +1,4 @@
-![alt text](https://avatars2.githubusercontent.com/u/11632545?v=3&s=200)
+![alt text](https://github.com/EliseevaKsenia/web/blob/master/img/logo.png)
 # Что это за проект?
 + Этот проект идеально подойдет для первых шагов в изучении разработки web-приложений.
 + Простой и лаконичный дизайн поможет освоить основные стили и разметки.

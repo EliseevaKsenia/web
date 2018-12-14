@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+     
+    <meta charset="utf-8">
+    <title>EKA</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body> 
+  $ node index.js
+      <header class="main-header">
+          <div class="container">
+              <div class="header-top">
+                  <div class="logo">                          
+                      <img src="img/logo.png" width="182" height="82" alt="A+">
+                  </div>                  
+                      <nav class="main-menu">
+                         <ul>
+                            <li><a href="#name">Преподаватели</a></li>
+                            <li><a href="how-write.html">Как поступить</a></li>
+							<li><a href="inner.html">Программа обучения</a></li>
+                           
+                         </ul>
+                     </nav>
+              </div>
+              <div class="promo">
+                  <div class="promo-title">
+                      Учеба еще никогда не была такой полезной!
+                  </div>
+                  <p>
+                      Факультатив "Основы разработки веб приложений" для студентов СПБГУТ)))
+                  </p>
+                  <a class="btn btn-purple" href="how-write.html">Как записаться</a>
+              </div>
+          </div>      
+      </header>
+      
+      <section class="features">
+          <div class="container">
+              <div class="features-item">
+                  <div class="features-icon features-icon-schedule"></div>
+                  <h2 class="features-title">Удобный  график обучения</h2>
+                  <p>Вы можете совмещать факультатив с основным обучением.</p>
+                  
+              </div>              
+              <div class="features-item">
+                  <div class="features-icon features-icon-practice"></div>
+                      
+                  <h2 class="features-title">Полная теоритическая база</h2>
+                  <p>В курсе лекций рассмотрим всю необходимую базу для веб программирования.</p>
+                  
+              </div>
+              <div class="features-item">
+                  <div class="features-icon features-icon-work"></div>
+                  <h2 class="features-title">Не оставим без диплома</h2>
+                  <p>По окончании курса вы получите диплом о прохождении.</p>
+                  
+              </div>
+          </div>          
+      </section>
+      
+      <section class="education">
+       </tr><p><a name="name"></a></p>
+          <div class="container">
+              <h2 class="education-title">Преподаватели</h2>
+              <div class="education-table">
+                  <table>
+
+                      <tr class="table-top">
+                          <td>Ф.И.О.</td>
+                          <td>Контакты</td>
+                          <td>Опыт работы
+                      </tr>
+                      <tr>
+                          <td><b>Маслюхин Сергей
+                          <td><b>маил</td>
+                          <td><span class="description">текст , много текста
+                      </tr>
+                      <tr>
+                          <td><b>Белов Антон</b></td>
+                          <td><b>маил, вк, что угодно</b></td>
+                          <td><span class="description">текст , много текста.</span></td>
+                      
+                  </table>
+              </div>
+          </div>
+
+      </section>
+      
+      <section class="contacts">
+          <div class="container">
+            <h2 class="contacts-title">Обратная связь</h2>
+            <form class="contacts-form" action="/nodemailer" method="post">
+
+              <table>
+                <tr>
+                  <td class="title">
+                    <label for="fio">ФИО:</label>
+                  </td>
+                  <td class="field">
+                    <input type="text" id="fio" name="fio" placeholder="Представьтесь, пожалуйста">
+                  </td>
+                </tr>
+                <tr>
+                 
+                <tr>
+                  <td class="title">
+                    <label for="message">Доп.текст:</label>
+                  </td>
+                  <td class="field">
+                    <input type="text" id="message" name="message" placeholder="Сообщите все, что считаете нужным"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">
+                    <label for="email">Mail:</label>
+                  </td>
+                  <td class="field">
+                    <input type="text" id="email" name="email" placeholder="Сообщите нам свой email для обратной связи">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title"></td>
+                  <td class="field">
+                    <input type="submit" name="submit" class="btn btn-purple" value="Отправить">
+                  </td>
+                </tr>
+              </table>
+            </form>
+            <div class="contacts-instruction">
+              <h3>Заинтересовались обучением на нашем факультативе?</h3>
+              <p>Заполните короткую форму обратной связи и отправьте нам.</p>
+              <p>Мы подготовим ответы на все ваши вопросы и выйдем на связь!</p>
+              <p class="contacts-alert"><strong>Внимание!</strong> Все поля обязательны для заполнения.</p>
+        </div>
+          </div>
+      </section>
+      
+   <footer class="main-footer gl0">
+          <div class="container gl1">
+            <div class="footer-top gl2">
+              <div class="footer-address gl3">
+                <div class="logo">
+                  <img src="img/logo.png" width="182" height="82" alt="A+">
+                </div>
+				<p><a name="bottom"></a></p>
+                <p>Россия, 193232, Санкт-Петербург, <br>пр. Большевиков д.22, к.1</p>
+              </div>
+            </div>
+      </div>
+      </footer>
+   
+  </body>
+</html>
